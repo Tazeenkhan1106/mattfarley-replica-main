@@ -1,0 +1,363 @@
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+}
+nav i{
+    color: #7510F7;
+    margin-left: 4rem;
+    font-size: 3rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 1rem;
+}
+nav ul{
+    margin-left: 52rem;
+}
+.button{
+    border-radius: 15rem;
+    padding: 0.7rem 1.4rem;
+    border: solid #7510F7;
+    color: #7510F7;
+    background: white;
+}
+.button:hover{
+    color: white;
+    background-color: #7510F7;
+    border: solid #7510F7;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows: 45rem;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
+}
+.grid p{
+    font-size: large;
+}
+.hd{
+    color: #7510F7;
+}
+.br{
+    border: 0.0625rem solid #e6ecf8;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    padding-top: 3rem;
+}
+.cr{
+    border: 1px solid #e6ecf8;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: white;
+    padding-top: 3rem;
+}
+.hr{
+    border: 1px solid #e6ecf8;
+    background-color: white;
+    padding-top: 3rem;
+}
+.intro{
+    background-color: #7510F7;
+    justify-content: center;
+    text-align: center;
+    padding: 7rem;
+    color: white;
+    font-size: larger;
+    padding-bottom: 16rem;
+}
+.hero{
+    justify-self: center;
+    margin-left: 20rem;
+}
+.heading{
+    text-align: center;
+    margin: 5rem;
+}
+.heading h1{
+    font-size: 2.7rem;
+}
+.heading p{
+    font-size: x-large;
+}
+.projects{
+    text-align: center;
+}
+.projects h1{
+    font-size: xx-large;
+}
+.projects p{
+    font-size: larger;
+}
+.projects p a{
+    text-decoration: none;
+    color: #7510F7;
+}
+.projectbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    background-image: url(wfdesignbuild.png);
+    background-size: contain;
+}
+.two{
+    background-image: url(awg2020.png);
+    background-size: contain;
+}
+.three{
+    background-image: url(chronicled.png);
+    background-size: contain;
+}
+.four{
+    background-image: url(glcsolutions.png);
+    background-size: contain;
+}
+.five{
+    background-image: url(coupal.png);
+    background-size: contain;
+}
+.six{
+    background-image: url(wedlerengineering.png);
+    background-size: contain;
+}
+.pro{
+    width: 18.75rem;
+    height: 12.5rem;
+    border-radius: 1.25rem;
+    margin: 2.5rem 0rem;
+    text-align: center;
+}
+.pro .hide{
+    visibility: hidden; 
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 1.25rem;
+}
+.pro:hover .hide{
+    visibility: visible;
+    border: solid #21094e;
+    background-color: #21094e;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.project-text {
+    color: white;
+    font-size: 1rem;
+}
+
+.project-btn {
+    color: white;
+    background: #21094e;
+    border: solid #7510F7;
+    border-radius: 15rem;
+    padding: 0.937rem;
+    text-decoration: none;
+
+}
+
+.project-btn:hover {
+    color: white;
+    background-color: #7510F7;
+    border: solid #7510F7;
+    transition: all 0.5 ease-in-out;
+}
+.drib{
+    border-radius: 15rem;
+    padding: 0.7rem 2.5rem;
+    border: solid #7510F7;
+    color: #7510F7;
+    background: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.drib:hover{
+    color: white;
+    background-color: #7510F7;
+    border: solid #7510F7;
+}
+.dr{
+    text-align: center;
+    margin: 4rem;
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+}
+.comp{
+    text-align: center;
+    margin: 10rem 0;
+}
+.comp h1{
+    font-size: xx-large;
+}
+.image{
+    height: 10rem;
+    width: 15rem;
+    object-fit: contain;
+}
+.proj{
+    margin: 10rem 0;
+}
+.startup .text{
+    background-color: #7510F7;
+    justify-content: center;
+    text-align: center;
+    padding: 7rem;
+    color: white;
+    font-size: larger;
+    padding-bottom: 14rem;
+}
+.startup .projects .box{
+    width: 18.75rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+    border: 1px solid #e6ecf8;
+    margin: 0.5rem 0rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    background-color: white;
+}
+.startup .projects .c1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.startup .projects .c2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.startup .projects .box a{
+    color: #7510F7;
+    text-decoration: none;
+    font-weight: bold;
+}
+.startup .projects .box .img2{
+    width: 8rem;
+    height: 3rem;
+}
+.startup .projects{
+    position: relative;
+    bottom: 10rem;
+}
+.projt{
+    text-align: center;
+}
+.projt h1{
+    font-size: x-large;
+}
+.projt p{
+    font-size: larger;
+}
+.projbotm{
+    position: relative;
+    bottom: 5rem;
+}
+.reviews{
+    text-align: center;
+    margin: 7rem 0 0 0;
+}
+.reviews h1{
+    font-size: x-large;
+}
+.reviews p{
+    font-size: larger;
+}
+.reviews img{
+    width: 7rem;
+    height: 7rem;
+}
+.reviews .client{
+    font-size: 1rem;
+}
+.start{
+    text-align: center;
+    position: relative;
+    top: 7rem;
+}
+.start .content{
+    border-radius: 1rem;
+    border: transparent;
+    display: flex;
+    background-color: #21094e;
+    color: white;
+    width: 95%;
+    height: 10rem;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.start .content p{
+    font-size: larger;
+}
+.start .content a{
+    text-decoration: none;
+    color: white;
+    border: solid #7510F7;
+    padding: 1rem 2rem;
+    font-size: larger;
+    border-radius: 15rem;
+    background: #21094e;
+}
+.start .content a:hover{
+    background-color: #7510F7;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #7510F7;
+    color: white;
+    text-align: center;
+    padding: 12rem 0 4rem 0;
+}
+.footer i{
+    font-size: 3rem;
+}
+.footer .social-media{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+.footer .social-media .social{
+    border: solid white;
+    padding: 0.5rem;
+    border-radius: 20rem;
+    margin: 0 1rem;
+}
+.footer .social-media .social i{
+    font-size: 1.2rem;
+}
+.footer .social-media .social:hover{
+    background-color: white;
+    color: #7510F7;
+}
+.footer .copy i{
+    font-size: 1rem;
+}
+.footer img{
+    width: 10rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.footer .para{
+    font-size: x-large;
+}
